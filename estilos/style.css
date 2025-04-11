@@ -1,0 +1,11 @@
+.titulo{
+    text-align: center;
+}
+
+.contenedor{
+    display: grid;
+}
+
+.logo{
+    height: 5px;
+}
