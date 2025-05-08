@@ -8,7 +8,7 @@
     background-color: #f9f9f9;
   }
   header {
-    background-color: #2c3e50;
+    background-color: #0a0a0a;
     color: white;
     display: flex;
     align-items: center;
@@ -21,7 +21,7 @@
     flex: 1;
   }
   .logo img {
-    height: 40px;
+    height: 60px;
     margin-right: 10px;
   }
   .logo h1 {
@@ -33,13 +33,14 @@
     display: inline-block;
   }
   .menu button {
-    background-color: #34495e;
+    background-color: #0a0a0a;
     color: white;
     padding: 10px;
     border: none;
     cursor: pointer;
     font-size: 16px;
   }
+
   .menu-contenido {
     display: none;
     position: absolute;
@@ -75,7 +76,7 @@
   .buscador button {
     padding: 10px 15px;
     border: none;
-    background-color: #2c3e50;
+    background-color: #000000;
     color: white;
     border-radius: 0 5px 5px 0;
     cursor: pointer;
@@ -96,4 +97,145 @@
 .active img{
     background-color: black;
     height: 150px;
+}
+
+
+/* formularrio*/
+
+
+.body_contacto {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+
+.registro {
+  background-color: #000000;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.registro h1 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #00ffae;
+  text-transform: capitalize;
+}
+
+.controles {
+  width: 100%;
+  padding: 12px 16px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+.controles:focus {
+  border-color: #042b55;
+  outline: none;
+}
+
+.boton {
+  width: 100%;
+  padding: 12px 16px;
+  background-color: #129b6f;
+  ;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.boton:hover {
+  background-color: #0056b3;
+}
+
+
+/* footer */
+
+.footer {
+  background: #111;
+  color: #fff;
+  padding: 60px 20px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto;
+  gap: 40px;
+}
+
+.footer-brand h2 {
+  font-size: 28px;
+  color: #00ffae;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.footer-brand p {
+  margin-top: 10px;
+  color: #aaa;
+  font-size: 15px;
+}
+
+.footer-links h3,
+.footer-social h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #00ffae;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+  color: #ddd;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+  color: #00ffae;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 22px;
+  color: #fff;
+  transition: transform 0.3s, color 0.3s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #00ffae;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 14px;
+  color: #666;
+  border-top: 1px solid #333;
+  padding-top: 20px;
 }
