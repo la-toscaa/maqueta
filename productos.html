@@ -3,35 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title> 
+    <title>Productos</title> 
+    <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
+    <header>
+        <div class="logo">
+          <img src="imagenes/logo/9A8210DD-DBA8-4246-82EE-9C152BEB1E00.PNG" alt="Logo de la tienda">
+          <h1>La tosca</h1>
+        </div>
+        <div class="menu">
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="50px" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+          </svg>
+          <div class="menu-contenido">
+            <a href="index.html">Inicio</a>
+            <a href="productos.html">Productos</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="sobre_nosotros.html">Sobre Nosotros</a>
+          </div>
+        </div>
+    </header>
+
     <section class="cartas">
-        <div class="card">
-            <div class="contenido">
-            <img src="img/barcelona.jpg" alt="">
-             <h2>Conjunto Barcelona</h2>
-             <div><button>leer mas</button></div>
-             </div>
-            
-        </div>
-
-        <div class="card">
-            <div class="contenido">
-            <img src="img/barcelona.jpg" alt="">
-             <h2>Conjunto Barcelona</h2>
-             <div><button>leer mas</button></div>
-             </div>
-             
-        </div>
-
-        <div class="card">
-            <div class="contenido">
-            <img src="img/barcelona.jpg" alt="">
-             <h2>Conjunto Barcelona</h2>
-             <div><button>leer mas</button></div>
-             </div>
-             
+        <h2 class="subtitulos">Algunos de nuestros productos</h2>
+        <div class="productos">
+          <div class="producto">
+            <img src="imagenes/productos/buzo.jpg" alt="buzo araña" />
+            <h3>Buzo Araña</h3>
+            <p>$3.500</p>
+            <button class="btn-comprar">Comprar</button>
+          </div>
+          <div class="producto">
+            <img src="imagenes/productos/buzo1.jpg" alt="buzo duki" />
+            <h3>Buzo Duki</h3>
+            <p>$9.800</p>
+            <button class="btn-comprar">Comprar</button>
+          </div>
+          <div class="producto">
+            <img src="imagenes/productos/buzo2.jpg" alt="Buzo facherito" />
+            <h3>Buzo Facherito</h3>
+            <p>$7.200</p>
+            <button class="btn-comprar">Comprar</button>
+          </div>
         </div>
     </section>
 
